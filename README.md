@@ -1,6 +1,7 @@
 # CP Project: Concurrent Pandemic Simulation – Java Template ☕️
 
 Reference implementation and template for the concurrent programming project 2023.
+Check Project description for details.
 
 ## Structure
 
