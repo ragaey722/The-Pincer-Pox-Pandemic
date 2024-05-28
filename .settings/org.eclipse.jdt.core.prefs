@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=20
+org.eclipse.jdt.core.compiler.compliance=20
+org.eclipse.jdt.core.compiler.source=20
+org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation=4
+org.eclipse.jdt.core.formatter.comment.line_length=90
+org.eclipse.jdt.core.formatter.parentheses_positions_in_method_invocation=preserve_positions

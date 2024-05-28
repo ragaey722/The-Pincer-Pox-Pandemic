@@ -1,0 +1,37 @@
+{
+  "folders": [{ "name": "CP23 Project", "path": "." }],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "[java]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "We ♥ NP (Slug)",
+        "request": "launch",
+        "mainClass": "com.pseuco.cp23.Simulator",
+        "projectName": "spread-sim",
+        "args": "--scenario scenarios/we_love_np.json --out out/we_love_np.result.json"
+      },
+      {
+        "type": "java",
+        "name": "We ♥ NP (Rocket)",
+        "request": "launch",
+        "mainClass": "com.pseuco.cp23.Simulator",
+        "projectName": "spread-sim",
+        "args": "--scenario scenarios/we_love_np.json --out out/we_love_np.result.json --rocket"
+      }
+    ],
+    "compounds": []
+  },
+  "extensions": {
+    "recommendations": [
+      "vscjava.vscode-java-pack",
+      "richardwillis.vscode-gradle-extension-pack"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+image: udsdepend/cp23-project-env:latest
+
+build:
+  stage: build
+  script:
+    - ./gradlew jar
+  artifacts:
+    paths:
+      - out/simulator.jar
+
+test:
+  stage: test
+  # Remove the following line, when your rocket is ready. 🚀
+  script:
+    - ./gradlew test
+  artifacts:
+    reports:
+      junit: build/test-results/test/**/TEST-*.xml
