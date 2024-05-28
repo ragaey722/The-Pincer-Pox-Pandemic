@@ -1,7 +1,7 @@
 # CP Project: Concurrent Pandemic Simulation – Java Template ☕️
 
-Reference implementation and template for the concurrent programming project 2023.
-Check Project description for details.
+Reference implementation and template for the concurrent programming project 2023.  
+Check [Project description.pdf](https://github.com/ragaey722/The-Pincer-Pox-Pandemic/blob/main/Project%20description.pdf) for details.
 
 ## Structure
 
